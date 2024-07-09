@@ -2,7 +2,7 @@
   <div>
     <!-- src="https://shop.spreadshirt.com/ID/" -->
     <iframe
-      src="https://fussel-streetwear.myspreadshop.net" 
+      src="/spreadshop/" 
       frameborder="0"
       width="100%"
       height="600"
