@@ -1,23 +1,31 @@
 <template>
-  <div>
-    <!-- src="https://shop.spreadshirt.com/ID/" -->
-    <iframe
-      src="https://fussel-streetwear.myspreadshop.net" 
-      frameborder="0"
-      width="100%"
-      height="600"
-    ></iframe>
-  </div>
+    <div id="myShop">
+        <a href="https://fussel-streetwear.myspreadshop.de">fussel-streetwear</a>
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'SpreadshopComponent'
+    name: 'SpreadshopComponent',
+    mounted() {
+        // Initialize Spreadshop configuration
+        window.spread_shop_config = {
+            shopName: 'fussel-streetwear',
+            locale: 'de_DE',
+            prefix: 'https://fussel-streetwear.myspreadshop.de',
+            baseId: 'myShop'
+        };
+
+        // Load Spreadshop JavaScript client
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://fussel-streetwear.myspreadshop.de/shopfiles/shopclient/shopclient.nocache.js';
+        script.async = true;
+        document.head.appendChild(script);
+    }
 }
 </script>
 
 <style scoped>
-iframe {
-  border: none;
-}
+/* Add scoped styles if needed */
 </style>
