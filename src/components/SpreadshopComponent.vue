@@ -30,6 +30,4 @@ export default {
 
 <style scoped>
 /* Add scoped styles if needed */
-.fussle-loader span img {width:100%; text-align:center;margin-left:30%;}
-.fussle-loader span h1 {position:absolute; font-size: 3em; margin-top: -450px; margin-left:65%;}
 </style>
