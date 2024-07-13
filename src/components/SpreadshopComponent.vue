@@ -1,7 +1,7 @@
 <template>
     <div id="myShop">
         <div  class="fussle-loader">
-            <span><img sizes="300x300" src="https://fussel-streetwear.myspreadshop.de/1325496/shopData/images/logo/safari-pinned-tab_qa3uf2.svg"><h1>™</h1></span>
+            <span><img sizes="300x300" src="https://fussel-streetwear.myspreadshop.de/1325496/shopData/images/logo/safari-pinned-tab_qa3uf2.svg"><h1 class="fussle-tm">™</h1></span>
         </div>
     </div>
 </template>
